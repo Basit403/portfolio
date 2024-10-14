@@ -1,0 +1,28 @@
+.personal-ctn{
+    margin-top: 30px;
+}
+
+.personal-btn{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 180px;
+    background-color: #0a1d46;
+    border-radius: 10px;
+    text-align: start;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .personal-btn{
+        flex-direction: column;
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,47 @@
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+.tech-p{
+    font-size: 20px;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.flex{
+    color: white;
+}
+
+.tech-flex{
+    margin-top: 60px;
+    display: flex;
+}
+
+.flex-1, .flex-2{
+    margin-right: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+    .flex-1, .flex-2{
+        margin-right: 100px;
+    }     
+}
+
+@media screen and (max-width: 770px){
+    h1{
+        font-size: 45px;
+    }
+    .tech-p{
+        margin-top: 5px;
+    }
+    .tech-flex{
+        margin-top: 30px;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .flex-1, .flex-2{
+        padding-bottom: 70px;
+    }    
+}
+
